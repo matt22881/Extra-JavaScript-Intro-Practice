@@ -568,55 +568,63 @@ const airports = [
 // };
 // myFunction();
 
+myFunction = () => console.log("function was invoked.");
+myFunction();
 
 // let anotherFunction = function (param) {
 //   return param;
 // };
 // anotherFunction("Example");
 
+anotherFunction = param => param
+console.log(anotherFunction("Example"));
 
 // let add = function (param1, param2) {
 //   return param1 + param2;
 // };
 // add(1,2);
 
+add = (param1, param2) => param1 + param2
+console.log(add(1, 2));
 
 // let subtract = function (param1, param2) {
 //   return param1 - param2;
 // };
 // subtract(1,2);
 
+subtract = (param1, param2) => param1 - param2
+console.log(subtract(2,1));
 
 /* Work out 💪 */
-/* TASK 1 🚀 
+/* TASK 1 🚀
 // Dollars to Euros - write a function that will take an amount of dollars (USD) and change it  into euros (EUR) - with the current exchange rate 1 USD === .85 EUR */
 
 
-/* TASK 2 🚀 
+/* TASK 2 🚀
 // Take the function above a step further - you have dollars and you are visiting the following 5 countries: Britan, Germany, Turkey, Bulgaria and Ukraine - you need to write a function that will take a dollar amount, and a country and return the exchange rate for that country - the function should return a string that says `your exchange rate for dollarAmount dollars in country will be exchangeRate currencyInitals ` If the country is not on your list your string should return 'that country is not on your list'
 // 1 usd === 0.85 euro
 // 1 usd === 0.77 British Pounds
-// 1 usd === 6.96 Turkish Lira 
-// 1 usd === 1.66 Bulgarian Lev 
+// 1 usd === 6.96 Turkish Lira
+// 1 usd === 1.66 Bulgarian Lev
 // 1 usd === 27.7 Ukrainian hryvnia */
 
 
 /*TASK 3 🚀
-/// Write a function that takes an airport code and returns the city, country of that airport 
+/// Write a function that takes an airport code and returns the city, country of that airport
 // find the following codes AAA, ABZ, ABX, ABT, ACA */
 
 
-/*TASK 4 🚀 
+/*TASK 4 🚀
 // Write a function to that will find the phone number for an airport in a given city  */
 
 
 
-/*TASK 5 🚀 
+/*TASK 5 🚀
 // Write a function that will return all the airports in a given country  */
 
 
 
-/*TASK 6 🚀 
+/*TASK 6 🚀
 // Write a function that takes and airport name and returns the airport code
 // find the code for the following airports: Al Baha Airport, Ambler Airport, Abuja International Airport*/
 
